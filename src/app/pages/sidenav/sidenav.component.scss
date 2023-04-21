@@ -1,11 +1,14 @@
 .nav-links {
   margin: 0;
   padding: 0;
+  width: 150px;
+  height: 100vh;
   li {
     list-style: none;
     margin: 0;
     padding: 14px 0 11px 16px;
     border-bottom: 1px solid #5C5C5C;
+    cursor: pointer;
     &:first-of-type {
       a {
         color: #FFFFFF;
@@ -29,6 +32,11 @@
       line-height: 19px;
     }
   }
-
-
 }
+
+@media (max-width: 1000px) {
+  .nav-links {
+    width: 100px;
+  }
+}
+

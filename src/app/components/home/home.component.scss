@@ -1,11 +1,10 @@
 .container {
   .block-1 {
     text-align: center;
-    margin-bottom: 40px;
+    margin: 0 129px 40px 0;
     font-family: 'Roboto';
     font-style: normal;
-    width: 1510px !important;
-    height: 210px;
+    height: fit-content;
     background: #EFEFEF;
     .title {
       font-weight: 700;
@@ -15,15 +14,13 @@
       padding: 38px 0 18px 0;
     }
     .text {
-      width: 972px;
-      height: 95px;
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 19px;
       color: #000000;
-      margin: 0 269px;
+      padding: 0 269px 40px 269px;
     }
   }
 
@@ -33,6 +30,7 @@
     justify-content: space-between;
     font-family: 'Roboto';
     font-style: normal;
+    margin-right: 79px;
     .content-card {
       margin-right: 50px;
       width: 470px;
@@ -61,16 +59,26 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1000px) {
   .container {
     text-align: center;
     .block-1 {
-      width: 580px;
-      .title {
-
-      }
+      width: 565px;
+      height: 270px;
       .text {
-
+        padding: 0 40px
+      }
+    }
+    .cards {
+      margin-right: 40px;
+      .content-card {
+        .img-card {
+          float: unset;
+          margin-right: unset;
+        }
+        .text {
+          padding-bottom: 10px;
+        }
       }
     }
   }

@@ -7,12 +7,13 @@
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 1000px) {
   .container {
     text-align: center;
     .img-ncc {
-      width: 210px;
-      height: 122px;
+      width: 150px;
+      height: 70px;
+      margin-right: 13%;
     }
   }
 }

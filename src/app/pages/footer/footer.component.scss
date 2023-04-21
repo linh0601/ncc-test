@@ -1,9 +1,5 @@
 .container {
-  position: absolute;
   width: 100%;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
   height: 79px;
   border-top: 1px solid #DEDEDE;
   .d-right {
@@ -19,11 +15,14 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1000px) {
   .container {
-    margin-top: 20px 0 30px 0;
+    height: 60px;
+    background-color: #FFFFFF;
     .d-right {
-      margin: 30px 0 30px 50px;
+      margin: 30px 0 0 40px;
+      position: relative;
+      bottom: 8px;
     }
   }
 }
