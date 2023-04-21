@@ -1,0 +1,63 @@
+.container {
+  .block-1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    height: 210px;
+    background: #EFEFEF;
+    .title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+      padding: 38px 0 18px 0;
+    }
+    .text {
+      width: 972px;
+      height: 95px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      margin: 0 269px;
+    }
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    .content-card {
+      width: 470px;
+      height: 252px;
+      .title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 18px;
+      }
+      .text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    text-align: center;
+    .img-ncc {
+      width: 210px;
+      height: 122px;
+    }
+  }
+}

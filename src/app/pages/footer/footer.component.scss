@@ -1,0 +1,29 @@
+.container {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  height: 79px;
+  border-top: 1px solid #DEDEDE;
+  .d-right {
+    width: 125px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3E3E3E;
+    margin: 30px 0 30px 129px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    margin-top: 20px 0 30px 0;
+    .d-right {
+      margin: 30px 0 30px 50px;
+    }
+  }
+}

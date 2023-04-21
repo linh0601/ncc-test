@@ -1,0 +1,9 @@
+<ul class="nav-links">
+  <li *ngFor="let item of menu; let i = index">
+    <ng-container>
+      <a class="item">
+        <span class="text">{{ item.text }}</span>
+      </a>
+    </ng-container>
+  </li>
+</ul>
