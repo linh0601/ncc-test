@@ -4,6 +4,7 @@
     margin-bottom: 40px;
     font-family: 'Roboto';
     font-style: normal;
+    width: 1510px !important;
     height: 210px;
     background: #EFEFEF;
     .title {
@@ -33,6 +34,7 @@
     font-family: 'Roboto';
     font-style: normal;
     .content-card {
+      margin-right: 50px;
       width: 470px;
       height: 252px;
       .title {
@@ -42,7 +44,14 @@
         color: #000000;
         margin-bottom: 18px;
       }
+      .img-card {
+        width: 128px;
+        height: 128px;
+        float: left;
+        margin-right: 16px;
+      }
       .text {
+        text-align: justify;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
@@ -52,12 +61,17 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (min-width: 768px) {
   .container {
     text-align: center;
-    .img-ncc {
-      width: 210px;
-      height: 122px;
+    .block-1 {
+      width: 580px;
+      .title {
+
+      }
+      .text {
+
+      }
     }
   }
 }
